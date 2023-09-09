@@ -1,0 +1,1296 @@
+/*EXTRA */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* navigation bar start */
+  header {
+    margin: 5px auto 10px;
+  }
+  .nav_logo {
+    padding-bottom: 0;
+    font-size: 25px;
+  }
+  .hamburger_m {
+    margin: 0 8px -10px;
+    padding: 0;
+    width: 40px;
+    height: 30px;
+  }
+  .navbar-toggler-icon {
+    font-size: 16px;
+  }
+  .nav_menu ul li {
+    padding-right: 10px;
+  }
+  .nav_menu ul li {
+    margin: 20px 0 0;
+    text-align: center;
+  }
+  .nav-item:hover {
+    color: white !important;
+    background-color: black;
+    border-radius: 100px;
+  }
+  /* navigation bar end */
+
+  /* navbar search button css for md only start  */
+  .search-container {
+    position: relative;
+  }
+  #input-search {
+    padding: 5px 15px;
+    margin-top: 5px;
+    font-size: 15px;
+    border-radius: 100px;
+    border: 1px solid !important;
+  }
+  #input-search-container.hidden {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  .search-container i {
+    margin: 0px 130px 0 120px;
+  }
+  #only-button {
+    border: none;
+    color: black;
+    background-color: white;
+  }
+  .nav-item {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  /* navbar search button css for md only end  */
+
+  /* banner and slider start  */
+  .slider {
+    height: 520px;
+  }
+  .slider_item {
+    margin: 75px 0 60px;
+  }
+  .slider_head {
+    font-size: 27px;
+  }
+  .slider_p {
+    padding: 45px 10px 52px 10px;
+  }
+  #button {
+    margin: 0 70px;
+  }
+  .prev_btn {
+    color: #fff;
+    margin-left: 85px;
+  }
+  .prev_btn:hover {
+    color: #000;
+  }
+  .nxt_btn {
+    color: #fff;
+  }
+  .nxt_btn:hover {
+    color: #000;
+  }
+  /* banner and slider end  */
+
+  /* text-welcome start  */
+  .service_main {
+    padding: 50px 0;
+  }
+  .tw_para p {
+    padding: 0 0;
+  }
+  .tw_middle {
+    margin: auto;
+  }
+  /* text-welcome end */
+
+  /* service section start  */
+  .service_item {
+    margin-top: 50px;
+    width: 296px;
+  }
+  .s_para {
+    padding: 15px 0 50px;
+  }
+  .c {
+    padding-bottom: 16px;
+  }
+  .s_button {
+    margin: 0 110px !important;
+  }
+  /* service section end  */
+
+  /* about us start  */
+  .about_us {
+    padding-bottom: 580px;
+  }
+  .only_small {
+    display: flex;
+    justify-content: center;
+  }
+  .a-us_img img {
+    height: 280px;
+  }
+  .a-us_text {
+    padding-left: 0 !important;
+  }
+  .a-us_text {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .a-us_text h1 {
+    text-align: center;
+  }
+  .a-us_text p {
+    padding: 30px 0;
+    text-align: center;
+  }
+  #button {
+    margin: 0 57px;
+  }
+  /* about us end  */
+
+  /* recent work middle line and list start  */
+  .rw_list {
+    padding-top: 60px;
+  }
+  .rw_list ul {
+    display: inline-grid;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
+  }
+  .rw_list ul li {
+    padding-right: 0px;
+    padding-bottom: 40px;
+  }
+  /* recent work middle line and list end  */
+
+  /* recent work image start  */
+  .rw_col_cm {
+    margin: 15px 0;
+    margin-right: 0;
+    width: 100%;
+    /* height: 347px; */
+  }
+  .rw_txt {
+    top: 80%;
+    width: 100%;
+  }
+  /* recent work image end  */
+
+  /* why chose nipro start  */
+  .wcn_row {
+    padding: 20px 0 50px;
+  }
+  .wcn_col {
+    padding: 30px 50px 0;
+  }
+  .rw_head h1 {
+    padding-top: 20px;
+    font-size: 28px;
+  }
+  .wcn_wrapper i {
+    padding: 0 87px;
+  }
+  .wcn_wrapper h2 {
+    padding: 5px 33px 0;
+  }
+  .wcn_wrapper p {
+    word-spacing: 0px;
+    letter-spacing: 0px;
+  }
+  .s_marg_3 h2 {
+    padding: 5px 40px 0;
+  }
+  .s_marg_4 h2 {
+    padding: 5px 28px 0px;
+  }
+  .s_marg_5 h2 {
+    padding: 5px 20px 0px;
+  }
+  .s_marg_6 h2 {
+    padding: 5px 21px 0px;
+  }
+  .wcn_wrapper p {
+    text-align: center;
+  }
+  /* why chose nipro end  */
+
+  /* who work with us section start  */
+  .ppl_main {
+    padding: 50px 0 50px;
+  }
+  .sm_main {
+    padding-top: 0;
+  }
+  .md_main {
+    padding-top: 0;
+  }
+  /* who work with us section end  */
+
+  /* price section start */
+  .pr_main_bx {
+    margin: 20px auto !important;
+  }
+  .pr_spec {
+    margin-top: 50px !important;
+  }
+  #button {
+    margin: 0;
+  }
+  /* price section end  */
+
+  /* buy section start  */
+  .buy_main {
+    padding: 5px 0;
+    text-align: center;
+  }
+  .buy_btn .only_small {
+    padding: 10px 0 !important;
+  }
+  /* buy section end  */
+
+  /* people slider start  */
+  .slider_2 {
+    padding: 60px 20px 60px 0;
+  }
+  .main_col {
+    padding: 0 0 0 -1px !important;
+    height: 0;
+    border: none !important;
+  }
+  .slider_texts .para_1 {
+    padding-top: 20px;
+  }
+  .slider_texts .para_2 {
+    padding: 10px 0 20px 0;
+  }
+  /* people slider end */
+
+  /* contact us start  */
+  .form_out {
+    width: 930px;
+  }
+  .form_main {
+    width: 270px;
+    padding: 820px 0px 60px 0px;
+  }
+  .form_head {
+    margin: auto;
+    width: 200px;
+  }
+  .form_opt .contact_fn,
+  .contact_ln {
+    margin-top: 55px;
+    width: 266px;
+  }
+  .contact_email {
+    padding-top: 30px;
+  }
+  .contact_email input {
+    margin-top: 25px;
+    width: 266px;
+  }
+  .form-float {
+    margin: 37px 0 0 0;
+  }
+  .form-float textarea {
+    width: 266px !important;
+  }
+  .contact_btn {
+    margin: 35px 0 10px 0;
+  }
+  .contact_btn a {
+    width: 200px !important;
+  }
+  .about_us_wrap a {
+    margin: 0;
+    padding: 10px 10px;
+  }
+  /* contact us end  */
+
+  /* footer start  */
+  .n_soc_main i {
+    margin: -10px;
+    width: 40px;
+    height: 45px;
+    font-size: 21px;
+  }
+  .rw_head h1 {
+    padding-top: 0;
+    text-align: center;
+  }
+  .n_para p {
+    padding: 35px 0;
+  }
+  .f_list ul li {
+    padding: 30px 6px 0 15px !important;
+  }
+  .first_list ul {
+    padding-bottom: 50px;
+  }
+  .f_list ul .f_li4 {
+    padding: 30px 90px !important;
+  }
+  .f_list .list-inline {
+    text-align: center;
+  }
+  .f_para {
+    display: contents !important;
+  }
+  .footer_p {
+    margin: 0 auto !important;
+    padding: 0 0 20px 0 !important;
+    text-align: center;
+    font-size: 13px;
+  }
+  /* footer end  */
+}
+
+/*EXTRA */
+
+/*SMALL */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* navigation bar start */
+  .hamburger_m {
+    margin: 0 8px -10px;
+    /* margin-right: 30px; */
+  }
+  .nav_menu ul li {
+    margin: 10px;
+    text-align: center;
+  }
+  .nav_menu ul:first-child {
+    margin-top: 30px;
+  }
+  .nav-item:hover {
+    color: white !important;
+    background-color: black;
+    border-radius: 100px;
+  }
+  /* navigation bar end */
+
+  /* navbar search button css for md only start  */
+  .search-container {
+    position: relative;
+  }
+
+  #input-search-container.hidden {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  .search-container i {
+    margin: 0px 120px 0 100px;
+  }
+  #only-button {
+    border: none;
+    color: black;
+    background-color: white;
+  }
+  #input-search {
+    padding: 5px 15px;
+    margin-top: 5px;
+    font-size: 15px;
+    border-radius: 100px;
+    border: 1px solid !important;
+  }
+  /* navbar search button css for md only end  */
+
+  /* banner and slider start  */
+  .slider_head {
+    font-size: 40px;
+    text-align: center;
+  }
+  .slider_p {
+    text-align: center;
+    padding: 45px 5px 32px 5px;
+  }
+  #button {
+    margin: 0 180px;
+  }
+  .prev_btn {
+    color: #fff;
+    margin-left: 200px;
+  }
+  .prev_btn:hover {
+    color: #000;
+  }
+  .nxt_btn {
+    color: #fff;
+    margin-right: 190px;
+  }
+  .nxt_btn:hover {
+    color: #000;
+  }
+  .first {
+    padding-left: 5px;
+  }
+  .third {
+    padding-right: 5px;
+  }
+  /* banner and slider end  */
+
+  /* text welcome start */
+  .tw_para p {
+    padding: 0;
+  }
+  /* text welcome end  */
+
+  /* service section start  */
+  .service_main {
+    padding: 60px 0 60px;
+  }
+  .service_item {
+    margin-top: 40px;
+    width: 245px;
+    height: 307px;
+  }
+  .s_icon i {
+    margin: -22px 87px 0;
+  }
+  .s_head {
+    font-size: 22px;
+  }
+  .s_button {
+    margin: 0 85px !important;
+  }
+  /* service section end  */
+
+  /* about us start  */
+  .about_us {
+    padding-bottom: 520px;
+  }
+  .a-us_text {
+    padding-left: 0 !important;
+  }
+  .a-us_text {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  #button {
+    margin: 0 185px !important;
+  }
+  /* about us end  */
+
+  /* recent work middle line and list start */
+  .rw_fluid {
+    padding: 10px 0 80px;
+  }
+  .rw_list {
+    padding-top: 50px;
+  }
+  .rw_list ul {
+    padding-left: 0;
+  }
+  /* recent work middle line and list end  */
+
+  /* recent work middle image start */
+  .rw_col_cm {
+    width: 540px !important;
+    height: 580px;
+  }
+  .rw_txt {
+    top: 82%;
+    width: 540px;
+    height: 103px;
+  }
+  /* recent work middle image end  */
+  
+  /* why chose nipro start  */
+  .wcn_row {
+    padding: 20px 0 70px;
+  }
+  .wcn_col {
+    padding: 50px 70px 0;
+  }
+  .wcn_wrapper i {
+    padding: 0 182px;
+  }
+  .wcn_wrapper h2 {
+    padding: 5px 120px 0;
+  }
+  .s_marg_4 h2 {
+    padding: 5px 110px 0;
+  }
+  .s_marg_5 h2 {
+    padding: 5px 110px 0;
+  }
+  .s_marg_6 h2 {
+    padding: 5px 110px 0;
+  }
+  .wcn_wrapper p {
+    text-align: center;
+  }
+  /* why chose nipro end  */
+
+  /* who work with us section start  */
+  .ppl_main {
+    width: 270px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .md_main {
+    padding-top: 0;
+  }
+  .ppl_social_li {
+    top: 60px;
+  }
+  /* who work with us section end  */
+
+  /* price section start */
+  .pr_row {
+    display: flex;
+    justify-content: center;
+  }
+  .tw_middle {
+    margin: auto;
+  }
+  .pr_main_bx {
+    margin: 50px 120px !important;
+  }
+  #button {
+    margin: 0 !important;
+  }
+  .md-btn a {
+    padding: 13px 97px;
+  }
+  .pr_spec_2,
+  .pr_spec_3 {
+    margin-top: 0;
+  }
+  /* price section end  */
+
+  /* buy section start  */
+  .buy_btn .only_small {
+    padding: 40px 0px 40px 23px !important;
+  }
+  #button {
+    margin: 0 0px;
+    padding: 13px 15px;
+  }
+  /* buy section end  */
+
+  /* people slider start  */
+  .col-lg-1 {
+    padding: 240px 0 0 5px;
+  }
+  .main_col {
+    padding: 0 0 40px 5px !important;
+    height: 776px;
+  }
+  /* people slider end  */
+
+  /* contact us start  */
+  .form_out {
+    width: 930px;
+    height: 500px;
+    margin: 0 20px;
+  }
+  .form_main {
+    padding: 0 43px 80px 0px;
+  }
+  .form_head {
+    margin: 0 70px;
+    width: 200px;
+  }
+  .form_opt .contact_fn,
+  .contact_ln {
+    margin-top: 55px;
+    width: 335px;
+  }
+  .contact_email {
+    padding-top: 30px;
+  }
+  .contact_email input {
+    margin-top: 25px;
+    width: 335px;
+  }
+  .form-float {
+    margin: 37px 0 0 0;
+  }
+  .form-float textarea {
+    width: 335px !important;
+  }
+  .contact_btn {
+    margin: 51px 0 0 -145px;
+  }
+  /* contact us end  */
+
+  /* footer start  */
+
+  .footer_licol {
+    padding: 10px 0 0;
+  }
+  .n_para p {
+    padding: 35px 30px;
+  }
+  .first_list ul {
+    padding-bottom: 60px;
+  }
+  .footer_p {
+    margin: 0 40px;
+    padding: 10px 37px;
+  }
+  .f_list ul li {
+    padding: 0px 46px 0 0 !important;
+  }
+  /* footer end  */
+}
+
+/*SMALL */
+
+/* MD-- */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* navigation bar start */
+  .hamburger_m {
+    margin: 0 8px -10px;
+  }
+  .nav_menu ul li {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .nav_menu ul:first-child {
+    margin-top: 30px;
+  }
+  .nav-item:hover {
+    color: white !important;
+    background-color: black;
+    border-radius: 100px;
+  }
+  /* navigation bar end */
+
+  /* navbar search button css for md only start  */
+  .search-container {
+    position: relative;
+  }
+
+  #input-search-container.hidden {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  .search-container i {
+    margin: 0px 120px 0 100px;
+  }
+  #only-button {
+    border: none;
+    color: black;
+    background-color: white;
+  }
+  #input-search {
+    padding: 5px 15px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: 1px solid !important;
+    border-radius: 100px;
+  }
+  /* navbar search button css for md only end  */
+
+  /* banner and slider start  */
+  .slider_head {
+    text-align: center;
+  }
+  .slider_p {
+    text-align: center;
+    padding: 45px 5px 32px 5px;
+  }
+  #button {
+    margin: 0 270px;
+  }
+  .prev_btn {
+    margin-left: 280px;
+  }
+  .nxt_btn {
+    margin-right: 285px;
+  }
+  .first {
+    padding-left: 5px;
+  }
+  .third {
+    padding-right: 5px;
+  }
+
+  .prev_btn {
+    color: #fff;
+  }
+  .prev_btn:hover {
+    color: #000;
+  }
+  .nxt_btn {
+    color: #fff;
+  }
+  .nxt_btn:hover {
+    color: #000;
+  }
+  /* banner and slider end  */
+
+  /* text welcome start  */
+  .tw_para p {
+    padding: 0;
+  }
+  /* text welcome end  */
+
+  /* service section start  */
+  .service_item {
+    margin: 16px 0;
+    width: 330px;
+  }
+  .s_icon i {
+    margin: -22px 123px 0;
+  }
+  .s_head {
+    font-size: 22px;
+  }
+  .small_line {
+    width: 60px;
+  }
+  .s_para {
+    padding: 30px 0 70px;
+  }
+  .c {
+    padding-bottom: 24px;
+  }
+  .s_button {
+    margin: 0 127px !important;
+  }
+  /* service section end  */
+
+  /* about us start  */
+  .about_us {
+    padding-bottom: 520px;
+  }
+  .a-us_text {
+    padding-left: 0 !important;
+  }
+  .a-us_text {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+  #button {
+    margin: 0 250px;
+  }
+  /* about us end  */
+  /* recent work middle line and heading start  */
+  .rw_list {
+    padding-top: 70px;
+  }
+  /* recent work middle line and heading end  */
+
+  /* recent work image start  */
+  .rw_col_cm {
+    margin: 0 !important;
+    width: 330px !important;
+    height: 387px;
+  }
+  .rw_col_1,
+  .rw_col_3,
+  .rw_col_5 {
+    margin: 0 20px !important;
+  }
+  .rw_col_5 {
+    margin: 0 0 0 20px !important;
+  }
+  .rw_txt {
+    height: 80px;
+  }
+  /* recent work image end  */
+
+  /* why chose nipro start */
+  .wcn_row {
+    padding: 80px 0;
+  }
+  .s_marg_5 h2 {
+    padding: 5px 100px 0 0;
+  }
+  .s_marg_6 h2 {
+    padding: 5px 110px 0 0;
+  }
+  .s_marg_1 h2 {
+    padding: 5px 130px 0 0;
+  }
+  .s_marg_2 h2 {
+    padding: 5px 130px 0 0;
+  }
+  .s_marg_4 h2 {
+    padding: 5px 140px 0 0;
+  }
+  /* why chose nipro end  */
+
+  /* who work with us section start  */
+  .ppl_social_li {
+    height: 140px;
+  }
+  .ppl_social_li li {
+    padding-bottom: 8px;
+  }
+  .ppl_main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .md_main {
+    padding-top: 0;
+  }
+  .md_main {
+    padding-top: 0;
+  }
+  /* who work with us section end  */
+
+  /* price boc start */
+  .pr_row {
+    padding: 0 10px !important;
+  }
+  .pr_main_bx {
+    margin: 80px 20px !important;
+    margin-right: 40px;
+  }
+  #button {
+    margin: 0 40px;
+  }
+  .pr_main_bx:nth-child(even) {
+    margin-right: 0;
+  }
+  .pr_main_bx {
+    margin: 80px 25px;
+  }
+  .pr_spec,
+  .pr_spec_3 {
+    margin-bottom: 40px !important;
+  }
+  .pr_spec_4 {
+    margin-top: 0 !important;
+  }
+  /* price boc end  */
+
+  /* buy section start  */
+  #button {
+    margin: 0px 0px;
+  }
+  #button {
+    padding: 10px 20px;
+  }
+  /* buy section end  */
+
+  /* people slider section start  */
+  .slider_2 {
+    padding: 80px 35px;
+  }
+  .main_col {
+    padding: 0 0 40px 0px !important;
+    height: 356px;
+  }
+  .slider_img {
+    padding-top: 26px;
+    width: 200px;
+  }
+  .slider_img img {
+    height: 328px;
+  }
+  .s_img_i {
+    top: 50px;
+    left: 10px;
+  }
+  .s_img_i i {
+    font-size: 34px;
+  }
+  .slider_texts h2 {
+    padding-top: 18px;
+  }
+  .slider_texts h3 {
+    padding: 0;
+  }
+  .slider_texts .para_1 {
+    padding-top: 10px;
+  }
+  .slider_texts .para_2 {
+    padding: 0;
+  }
+  .slider-btnon {
+    padding: 5px 0 0 10px !important;
+  }
+  /* people slider section end  */
+
+  /* contact us start  */
+  .form_head {
+    margin: 0 100px;
+  }
+  .form_out {
+    width: 930px;
+    margin: 0 20px;
+  }
+  .form_main {
+    padding: 0 43px 80px 0px;
+  }
+  .form_opt .contact_fn,
+  .contact_ln {
+    margin-top: 55px;
+    width: 465px;
+  }
+  .contact_email {
+    padding-top: 30px;
+  }
+  .contact_email input {
+    margin-top: 25px;
+    width: 465px;
+  }
+  .form-float {
+    margin: 37px 0 0 0;
+  }
+  .form-float textarea {
+    width: 465px !important;
+  }
+  .contact_btn {
+    margin: 55px 0 55px 130px;
+  }
+  /* contact us end  */
+
+  /* footer start  */
+  .first_list ul {
+    padding-bottom: 80px;
+  }
+  .footer_p {
+    font-size: 14px;
+    padding: 30px 0 30px 0;
+  }
+  .f_list ul li {
+    padding: 23px 0 0 0 !important;
+  }
+
+  /* footer end  */
+}
+
+/* MD-- */
+
+/* LG-- */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* banner and slider start  */
+  .slider_item {
+    margin: 190px 0 190px;
+  }
+  .slider_item h1 {
+    font-size: 50px;
+  }
+  .slider_item p {
+    padding: 45px 90px 32px 0;
+  }
+  .prev_btn {
+    color: #fff;
+  }
+  .nxt_btn:hover {
+    color: #8e8e8e;
+  }
+  .nxt_btn {
+    color: #fff;
+  }
+  .nxt_btn:hover {
+    color: #8e8e8e;
+  }
+  /* banner and slider end  */
+
+  /* service section start  */
+  .service_item {
+    width: 230px;
+    height: 320px;
+  }
+  .s_icon i {
+    margin: -22px 79px 0;
+  }
+  .s_para {
+    padding: 15px 0 35px;
+  }
+  .c {
+    padding-bottom: 13px;
+  }
+  .s_button {
+    margin: 0 77px !important;
+  }
+  /* service section end  */
+
+  /* text welcome start  */
+  .tw_para p {
+    padding: 0;
+  }
+  /* text welcome end  */
+
+  /* about us start  */
+  .a-us_text {
+    padding-left: 50px;
+  }
+  .a-us_text p {
+    padding: 31px 0;
+    line-height: 25px;
+  }
+  /* about us end  */
+
+  /* recent work image start */
+  .rw_col {
+    width: 299px;
+    height: 350px;
+  }
+  .rw_col_3 {
+    width: 299px;
+    height: 350px;
+  }
+  /* recent work image end */
+
+  /* why chose nipro start */
+  .wcn_wrapper h2 {
+    padding: 5px 90px 0 0;
+  }
+  .s_marg_3 h2 {
+    padding: 5px 110px 0 0;
+  }
+  .s_marg_5 h2 {
+    padding: 5px 60px 0 0;
+  }
+  .s_marg_6 h2 {
+    padding: 5px 70px 0 0;
+  }
+  /* why chose nipro end  */
+
+  /* who work with us section start */
+  .ppl_social_li {
+    top: 40px;
+  }
+  .ppl_text h2 {
+    padding: 15px 0 0 10px;
+  }
+  .ppl_text p {
+    padding: 15px 0 15px 10px;
+  }
+  /* who work with us section end */
+
+  /* price section start */
+  .pr_row {
+    padding: 0 20px;
+  }
+  .pr_main_bx {
+    width: 210px;
+  }
+  .pr_cus_btn a {
+    padding: 13px 47px !important;
+  }
+  /* price section end */
+
+  /* buy section start  */
+  #button {
+    padding: 13px 10px;
+  }
+  .buy_btn .only_small {
+    text-align: none !important;
+  }
+  .buy_main {
+    padding-left: 30px;
+  }
+  /* buy section end  */
+
+  /* people slider start  */
+  .col-lg-1 {
+    width: 70px;
+    padding: 35px 0 0 22px;
+  }
+  .main_col {
+    padding: 0 0 -10px -5px;
+    height: 409px;
+    border-right: 1px solid #ffffff;
+  }
+  .slider_img img {
+    height: 320px;
+  }
+  .s_img_i {
+    left: 10px;
+  }
+
+  /* people slider end  */
+
+  /* contact us start  */
+  .form_out {
+    width: 930px;
+    margin: 0 20px;
+  }
+  .form_opt .contact_fn,
+  .contact_ln {
+    width: 305px;
+  }
+  .contact_email input {
+    width: 617px;
+  }
+  .form-float textarea {
+    width: 615px !important;
+  }
+  /* contact us end  */
+
+  /* footer start  */
+  .footer_p {
+    padding: 30px 0 30px 26px;
+  }
+  .f_list ul li {
+    padding: 30px 26px 0 0 !important;
+  }
+
+  /* footer end  */
+}
+
+/* LG-- */
+
+/* XL-- */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* banner and slider start  */
+  .slider_item {
+    margin: 170px 0 160px;
+  }
+  .slider_p {
+    padding: 45px 10px 32px 0;
+  }
+  .prev_btn {
+    color: #fff;
+  }
+  .nxt_btn:hover {
+    color: #8e8e8e;
+  }
+  .nxt_btn {
+    color: #fff;
+  }
+  .nxt_btn:hover {
+    color: #8e8e8e;
+  }
+  /* banner and slider end  */
+
+  /* service section start  */
+  .service_item {
+    width: 270px;
+    height: 337px;
+  }
+  .s_icon i {
+    margin: -22px 99px 0;
+  }
+  .s_para {
+    padding: 15px 0 50px;
+  }
+  .c {
+    padding-bottom: 15px;
+  }
+  .s_button {
+    margin: 0 95px !important;
+  }
+  /* service section end  */
+
+  /* text welcome start  */
+  .tw_para p {
+    padding: 0;
+  }
+  /* text welcome end  */
+
+  /* about us start  */
+  .a-us_text {
+    padding-left: 55px;
+  }
+  .a-us_text p {
+    padding: 25px 0;
+    line-height: 29px;
+  }
+  /* about us end  */
+
+  /* recent work image start */
+  .rw_col {
+    width: 359px;
+    height: 410px;
+  }
+  .rw_col_3 {
+    width: 359px;
+    height: 410px;
+  }
+  /* recent work image end */
+
+  /* why work with us  */
+  .ppl_social_li {
+    top: 60px;
+  }
+  /* why work with us  */
+
+  /* price section start */
+  .pr_row {
+    padding: 0 10px;
+  }
+  .pr_main_bx {
+    width: 260px;
+  }
+  .pr_bx a {
+    padding: 15px 70px !important;
+  }
+  /* price section end */
+
+  /* people slider start  */
+  .s_img_i {
+    left: 15px;
+  }
+  /* people slider end  */
+
+  /* contact us start  */
+  .form_opt .contact_fn,
+  .contact_ln {
+    width: 380px;
+  }
+  .contact_email input {
+    width: 765px;
+  }
+  .form-float textarea {
+    width: 760px !important;
+  }
+  /* contact us end  */
+}
+
+/* XL-- */
+
+/*XXL-- */
+
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* banner and slider start  */
+  .slider {
+    background-size: cover;
+  }
+  .prev_btn {
+    color: #fff;
+  }
+  .prev_btn:hover {
+    color: #000;
+  }
+  .three_line_common {
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .three_line_common:hover {
+    color: #000 !important;
+  }
+  .nxt_btn {
+    color: #fff;
+  }
+  .nxt_btn:hover {
+    color: #000;
+  }
+  /* banner and slider end  */
+
+  /* text welcome start  */
+  .tw_para p {
+    padding: 0;
+  }
+  /* text welcome end  */
+}
+
+/*XXL-- */
